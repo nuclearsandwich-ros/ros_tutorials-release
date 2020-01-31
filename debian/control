@@ -1,0 +1,12 @@
+Source: ros-turbulent-turtlesim
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qt5-qmake, qtbase5-dev, ros-turbulent-ament-cmake, ros-turbulent-ament-index-cpp, ros-turbulent-geometry-msgs, ros-turbulent-rclcpp, ros-turbulent-rclcpp-action, ros-turbulent-rosidl-default-generators, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: http://www.ros.org/wiki/turtlesim
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-turtlesim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, ros-turbulent-ament-index-cpp, ros-turbulent-geometry-msgs, ros-turbulent-rclcpp, ros-turbulent-rclcpp-action, ros-turbulent-rosidl-default-runtime, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-ros-workspace
+Description: turtlesim is a tool made for teaching ROS and ROS packages.
