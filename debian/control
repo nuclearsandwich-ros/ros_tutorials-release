@@ -1,0 +1,12 @@
+Source: ros-verystable-turtlesim
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qt5-qmake, qtbase5-dev, ros-verystable-ament-cmake, ros-verystable-ament-index-cpp, ros-verystable-geometry-msgs, ros-verystable-rclcpp, ros-verystable-rclcpp-action, ros-verystable-rosidl-default-generators, ros-verystable-std-msgs, ros-verystable-std-srvs, ros-verystable-ros-workspace, ros-verystable-rmw-connext-cpp, ros-verystable-rmw-fastrtps-cpp, ros-verystable-rmw-implementation, ros-verystable-rmw-opensplice-cpp, ros-verystable-rosidl-typesupport-connext-c, ros-verystable-rosidl-typesupport-connext-cpp, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-rosidl-typesupport-opensplice-cpp
+Homepage: http://www.ros.org/wiki/turtlesim
+Standards-Version: 3.9.2
+
+Package: ros-verystable-turtlesim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, ros-verystable-ament-index-cpp, ros-verystable-geometry-msgs, ros-verystable-rclcpp, ros-verystable-rclcpp-action, ros-verystable-rosidl-default-runtime, ros-verystable-std-msgs, ros-verystable-std-srvs, ros-verystable-ros-workspace
+Description: turtlesim is a tool made for teaching ROS and ROS packages.
