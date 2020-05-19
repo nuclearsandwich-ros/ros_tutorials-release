@@ -1,0 +1,12 @@
+Source: ros-testing-turtlesim
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qt5-qmake, qtbase5-dev, ros-testing-ament-cmake, ros-testing-ament-index-cpp, ros-testing-geometry-msgs, ros-testing-rclcpp, ros-testing-rclcpp-action, ros-testing-rosidl-default-generators, ros-testing-std-msgs, ros-testing-std-srvs, ros-testing-ros-workspace, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp
+Homepage: http://www.ros.org/wiki/turtlesim
+Standards-Version: 3.9.2
+
+Package: ros-testing-turtlesim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, ros-testing-ament-index-cpp, ros-testing-geometry-msgs, ros-testing-rclcpp, ros-testing-rclcpp-action, ros-testing-rosidl-default-runtime, ros-testing-std-msgs, ros-testing-std-srvs, ros-testing-ros-workspace
+Description: turtlesim is a tool made for teaching ROS and ROS packages.
